@@ -5,13 +5,15 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "gulp sass:css",
-    "start": "gulp hello && gulp minifycss"
+    "start": "gulp cssmaps"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-uglifycss": "^1.1.0",
     "gulp-watch": "^5.0.1",
     "node-sass": "^4.11.0"
